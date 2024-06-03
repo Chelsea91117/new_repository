@@ -1,0 +1,19 @@
+   1  cd /E/DANA/Git-test/
+   2  git clone git@github.com:Chelsea91117/new_repository.git
+   3  ls -al
+   4  cd /E/DANA/Git-test/new_repository
+   5  ls -al
+   6  git branch
+   7  git branch feature
+   8  git branch
+   9  git checkout feature
+  10  ls -al
+  11  touch README.md
+  12  ls -al
+  13  git add .
+  14  git commit -m "Add file README.md"
+  15  git push origin feature
+  16  git commit --amend -m "Add file README.md ammend"
+  17  git checkout main
+  18  git merge feature
+  19  history > history.txt
